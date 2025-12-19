@@ -6,16 +6,21 @@ const About = () => {
           About Me
         </h2>
         <div className="space-y-5 font-sans text-muted-foreground leading-relaxed">
-          <p>
-            I am a dedicated student with a strong interest in software development and technology. 
-            My academic journey has equipped me with foundational skills in programming, web development, 
-            and problem-solving, which I continuously seek to expand through hands-on projects and self-directed learning.
-          </p>
-          <p>
-            I am committed to building clean, efficient, and accessible solutions that prioritize user experience. 
-            Currently, I am focused on developing my expertise in modern web technologies while exploring 
-            opportunities to contribute to meaningful projects in collaborative environments.
-          </p>
+        <p>
+          I am a student currently focusing on data science, with an interest in working 
+          with data to understand patterns, trends, and real-world problems. I enjoy the 
+          process of exploring datasets and making sense of information through analysis.
+        </p>
+        <p>
+          Lately, I have been spending more time building skills in Python, data analysis, 
+          and basic machine learning concepts, while also learning how to visualize and 
+          communicate insights clearly.
+        </p>
+        <p>
+          This portfolio is a space to document my work and learning progress. I use web 
+          technologies mainly as a way to present my projects, while continuing to develop 
+          my core strengths in data science and programming.
+        </p>
         </div>
       </div>
     </section>

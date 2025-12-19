@@ -1,15 +1,43 @@
 const skillCategories = [
   {
-    title: "Programming",
-    skills: ["Python", "JavaScript", "TypeScript", "Java", "C++"],
+    title: "Data Science & Analysis",
+    skills: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Exploratory Data Analysis (EDA)",
+      "Data Cleaning & Preprocessing",
+      "Data Visualization",
+      "Matplotlib",
+      "Seaborn",
+    ],
   },
   {
-    title: "Web Development",
-    skills: ["React", "HTML/CSS", "Tailwind CSS", "Node.js", "REST APIs"],
+    title: "Machine Learning (Foundations)",
+    skills: [
+      "Classification & Regression",
+      "Basic Supervised Learning",
+      "Model Evaluation",
+      "Scikit-learn (Basic Usage)",
+    ],
   },
   {
-    title: "Tools & Technologies",
-    skills: ["Git", "VS Code", "Figma", "Linux", "MongoDB"],
+    title: "Statistics & Analytical Concepts",
+    skills: [
+      "Descriptive Statistics",
+      "Correlation Analysis",
+      "ANOVA (Basics)",
+      "Hypothesis Testing (Foundations)",
+    ],
+  },
+  {
+    title: "Programming & Tools",
+    skills: [
+      "Python",
+      "Git & GitHub",
+      "Jupyter Notebooks",
+      "VS Code",
+    ],
   },
 ];
 

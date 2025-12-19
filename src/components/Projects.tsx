@@ -2,27 +2,23 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Task Management App",
-    description: "A full-stack application for organizing tasks with drag-and-drop functionality and user authentication.",
-    tech: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "Titanic Dataset Analysis",
+    description:
+      "Performed exploratory data analysis on the Titanic dataset to study survival patterns across factors such as gender, age, and passenger class. Focused on data cleaning, visualization, and drawing meaningful insights from the data.",
+    tech: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    github: null,
+    live: null,
   },
   {
-    title: "Weather Dashboard",
-    description: "Real-time weather application with location search, forecasts, and responsive design.",
-    tech: ["JavaScript", "REST API", "CSS Grid"],
-    github: "https://github.com",
-    live: "https://example.com",
-  },
-  {
-    title: "Portfolio Website",
-    description: "Personal portfolio showcasing projects and skills, built with modern web technologies.",
-    tech: ["React", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com",
+    title: "Wine Quality Data Analysis",
+    description:
+      "Analyzed the Wine Quality dataset to understand how chemical properties such as alcohol content and acidity influence quality ratings. Used visualizations and statistical observations to identify trends and relationships.",
+    tech: ["Python", "Pandas", "Matplotlib", "Seaborn"],
+    github: null,
     live: null,
   },
 ];
+
 
 const Projects = () => {
   return (

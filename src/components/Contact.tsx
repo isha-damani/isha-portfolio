@@ -3,21 +3,21 @@ import { Mail, Github, Linkedin } from "lucide-react";
 const contactLinks = [
   {
     label: "Email",
-    href: "mailto:isha.damani@email.com",
+    href: "mailto:ishadamani25@gmail.com",
     icon: Mail,
-    display: "isha.damani@email.com",
+    display: "ishadamani25@gmail.com",
   },
   {
     label: "GitHub",
-    href: "https://github.com/ishadamani",
+    href: "https://github.com/isha-damani",
     icon: Github,
-    display: "github.com/ishadamani",
+    display: "github.com/isha-damani",
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/ishadamani",
+    href: "https://linkedin.com/in/isha-a-damani-935611336",
     icon: Linkedin,
-    display: "linkedin.com/in/ishadamani",
+    display: "linkedin.com/in/isha-a-damani-935611336",
   },
 ];
 
