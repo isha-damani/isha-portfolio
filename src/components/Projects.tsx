@@ -17,6 +17,18 @@ const projects = [
     github: null,
     live: null,
   },
+  {
+    title: "SLM for Data Science Learning (Ongoing)",
+    description:
+      "Currently developing a small language model-based chatbot designed to support learning in data science. The project focuses on understanding how language models work by building a system that explains data science concepts using self-written, curated content.",
+    tech: [
+      "Python",
+      "Natural Language Processing (Foundations)",
+      "Machine Learning (Foundations)",
+    ],
+    github: null,
+    live: null,
+  },  
 ];
 
 
