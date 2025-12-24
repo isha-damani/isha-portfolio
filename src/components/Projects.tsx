@@ -2,6 +2,19 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
+    title: "Personal Portfolio Website",
+    description:
+      "Designed and developed a personal portfolio website to present my work and learning journey. Used an AI-assisted tool to generate the initial project structure, then customized the design, content, and components manually. Implemented version control using Git, managed the repository on GitHub, and deployed the site using Netlify.",
+    tech: [
+      "Git & GitHub",
+      "Project Structuring",
+      "Frontend Customization",
+      "Netlify Deployment",
+    ],
+    github: "https://github.com/isha-damani/isha-portfolio",
+    live: "https://isha-damani-portfolio.netlify.app",
+  }, 
+  {
     title: "Titanic Dataset Analysis",
     description:
       "Performed exploratory data analysis on the Titanic dataset to study survival patterns across factors such as gender, age, and passenger class. Focused on data cleaning, visualization, and drawing meaningful insights from the data.",
@@ -28,7 +41,7 @@ const projects = [
     ],
     github: null,
     live: null,
-  },  
+  },   
 ];
 
 
