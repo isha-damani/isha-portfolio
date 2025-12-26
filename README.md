@@ -4,9 +4,17 @@ A clean and minimal personal portfolio website built to showcase my profile, ski
 
 ---
 
+## Live Site
+
+🔗https://isha-damani-portfolio.netlify.app
+
+---
+
 ## Overview
 
-This project is a responsive personal portfolio designed with a soft, elegant aesthetic while maintaining a formal and structured layout suitable for academic and professional use. It highlights my background, technical skills, and selected projects in a clear and accessible way.
+This project is a responsive personal portfolio website designed to present my background, technical skills, and selected projects in a clear and structured way. It serves as a central place to document my work and learning progress, particularly in data science and analytical problem solving.
+
+The portfolio includes completed projects as well as ongoing work, reflecting my current areas of focus and development.
 
 ---
 
@@ -23,28 +31,27 @@ This project is a responsive personal portfolio designed with a soft, elegant ae
 ## Features
 
 - Responsive design for desktop and mobile
-- Minimal and professional UI
+- Minimal and professional user interface
 - Dedicated sections for:
-  - Introduction / Hero
+  - Hero / Introduction
   - About
   - Skills
-  - Projects
+  - Projects (including ongoing work)
   - Contact
-- Clean component-based architecture
-- Fast development and build setup using Vite
+- Clean, component-based project structure
+- Fast development and build process using Vite
 
 ---
 
 ## Project Structure
 
-src/
-├── components/ # Reusable UI components
-├── pages/ # Page-level components
-├── hooks/ # Custom hooks
-├── lib/ # Utility functions
-├── App.tsx
-└── main.tsx
-public/
+src/ <br>
+├── components/ # Reusable UI components<br>
+├── pages/ # Page-level components<br>
+├── hooks/ # Custom hooks<br>
+├── lib/ # Utility functions<br>
+├── App.tsx<br>
+└── main.tsx<br>
 
 
 ---
