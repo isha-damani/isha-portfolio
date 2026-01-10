@@ -15,21 +15,19 @@ const projects = [
     live: "https://isha-damani-portfolio.netlify.app",
   }, 
   {
-    title: "Titanic Dataset Analysis",
+    title: "AgroGuide - Crop Recommendation System",
     description:
-      "Performed exploratory data analysis on the Titanic dataset to study survival patterns across factors such as gender, age, and passenger class. Focused on data cleaning, visualization, and drawing meaningful insights from the data.",
-    tech: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-    github: null,
+      "Developed a web-based application that provides crop recommendations based on soil nutrients and weather parameters. The system collects user inputs such as nitrogen, phosphorus, potassium, pH, temperature, and rainfall, and uses a machine learning model to suggest suitable crops for cultivation. The project focuses on applying data science concepts to a real-world agricultural problem.",
+    tech: [
+      "Python",
+      "Machine Learning",
+      "Data Preprocessing",
+      "Model Prediction",
+      "Frontend-Backend Integration",
+    ],
+    github: "https://github.com/isha-damani/agro-guide",
     live: null,
-  },
-  {
-    title: "Wine Quality Data Analysis",
-    description:
-      "Analyzed the Wine Quality dataset to understand how chemical properties such as alcohol content and acidity influence quality ratings. Used visualizations and statistical observations to identify trends and relationships.",
-    tech: ["Python", "Pandas", "Matplotlib", "Seaborn"],
-    github: null,
-    live: null,
-  },
+  },  
   {
     title: "SLM for Data Science Learning (Ongoing)",
     description:
