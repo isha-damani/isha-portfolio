@@ -26,7 +26,7 @@ const projects = [
       "Frontend-Backend Integration",
     ],
     github: "https://github.com/isha-damani/agro-guide",
-    live: null,
+    live: "https://agro-guide-frontend.onrender.com/",
   },  
   {
     title: "SLM for Data Science Learning (Ongoing)",
