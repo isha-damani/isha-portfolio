@@ -29,15 +29,17 @@ const projects = [
     live: "https://agro-guide-frontend.onrender.com/",
   },  
   {
-    title: "SLM for Data Science Learning (Ongoing)",
+    title: "Ritu - A Gentle Cycle Tracker",
     description:
-      "Currently developing a small language model-based chatbot designed to support learning in data science. The project focuses on understanding how language models work by building a system that explains data science concepts using self-written, curated content.",
+      "Ritu is a privacy-first menstrual cycle tracker designed with a calm, respectful UI. It uses transparent, rule-based logic to help users understand their cycle without medical claims or overwhelming features.",
     tech: [
-      "Python",
-      "Natural Language Processing (Foundations)",
-      "Machine Learning (Foundations)",
+      "React",
+      "Tailwind CSS",
+      "TypeScript",
+      "Vite",
+      "LocalStorage (browser-based persistence)",
     ],
-    github: null,
+    github: "https://github.com/isha-damani/ritu",
     live: null,
   },   
 ];
