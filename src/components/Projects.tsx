@@ -24,23 +24,25 @@ const projects = [
       "Data Preprocessing",
       "Model Prediction",
       "Frontend-Backend Integration",
+      "Render Deployment",
     ],
     github: "https://github.com/isha-damani/agro-guide",
     live: "https://agro-guide-frontend.onrender.com/",
   },  
   {
-    title: "Ritu - A Gentle Cycle Tracker",
+    title: "Ritu - Cycle And Wellness Tracker",
     description:
-      "Ritu is a privacy-first menstrual cycle tracker designed with a calm, respectful UI. It uses transparent, rule-based logic to help users understand their cycle without medical claims or overwhelming features.",
+      "A privacy-first menstrual cycle tracker that predicts cycle phases and period windows, allows daily mood and symptom logging, and visualizes data through an interactive calendar. Built with a focus on state consistency, persistence, and clean UX.",
     tech: [
       "React",
       "Tailwind CSS",
       "TypeScript",
       "Vite",
-      "LocalStorage (browser-based persistence)",
+      "LocalStorage",
+      "Vercel Deployment",
     ],
     github: "https://github.com/isha-damani/ritu",
-    live: null,
+    live: "https://ritu-period-tracker.vercel.app/",
   },   
 ];
 
