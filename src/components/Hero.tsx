@@ -17,7 +17,8 @@ const Hero = () => {
         </h1>
 
         <p className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-          Student exploring data science, analysis, and applied programming
+          Computer Science student building full-stack web apps and exploring
+          data science and machine learning
         </p>
 
         <div>
