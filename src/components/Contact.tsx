@@ -15,9 +15,9 @@ const contactLinks = [
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/isha-a-damani-935611336",
+    href: "https://linkedin.com/in/isha-damani-108b85438", 
     icon: Linkedin,
-    display: "linkedin.com/in/isha-a-damani-935611336",
+    display: "linkedin.com/in/isha-damani-108b85438",
   },
 ];
 
