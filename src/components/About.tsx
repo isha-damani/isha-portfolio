@@ -7,19 +7,24 @@ const About = () => {
         </h2>
         <div className="space-y-5 font-sans text-muted-foreground leading-relaxed">
         <p>
-          I am a student currently focusing on data science, with an interest in working 
-          with data to understand patterns, trends, and real-world problems. I enjoy the 
-          process of exploring datasets and making sense of information through analysis.
+          I am a third-year B.Tech student in Computer Science and Engineering
+          (AI &amp; ML) at Neil Gogte Institute of Technology. I enjoy building
+          software and understanding how things work, from the logic behind a
+          problem to the finished application.
         </p>
         <p>
-          Lately, I have been spending more time building skills in Python, data analysis, 
-          and basic machine learning concepts, while also learning how to visualize and 
-          communicate insights clearly.
+          I have been building my skills in Java, Python, and data structures
+          and algorithms, and I practice regularly on LeetCode. On the
+          development side, I have built a full-stack web app with React,
+          Node.js, Express, and MongoDB. I also work with Python, Pandas, and
+          scikit-learn to explore data and learn the foundations of machine
+          learning.
         </p>
         <p>
-          This portfolio is a space to document my work and learning progress. I use web 
-          technologies mainly as a way to present my projects, while continuing to develop 
-          my core strengths in data science and programming.
+          Right now I am working on a research project on drug sensitivity
+          prediction as part of my college Project School. I am also preparing
+          for software engineering roles. This portfolio is a space to document
+          my projects and learning progress as I keep growing.
         </p>
         </div>
       </div>
