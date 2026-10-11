@@ -1,49 +1,74 @@
 import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
-  {
-    title: "Personal Portfolio Website",
-    description:
-      "Designed and developed a personal portfolio website to present my work and learning journey. Used an AI-assisted tool to generate the initial project structure, then customized the design, content, and components manually. Implemented version control using Git, managed the repository on GitHub, and deployed the site using Netlify.",
-    tech: [
-      "Git & GitHub",
-      "Project Structuring",
-      "Frontend Customization",
-      "Netlify Deployment",
-    ],
-    github: "https://github.com/isha-damani/isha-portfolio",
-    live: "https://isha-damani-portfolio.netlify.app",
-  }, 
-  {
-    title: "AgroGuide - Crop Recommendation System",
-    description:
-      "Developed a web-based application that provides crop recommendations based on soil nutrients and weather parameters. The system collects user inputs such as nitrogen, phosphorus, potassium, pH, temperature, and rainfall, and uses a machine learning model to suggest suitable crops for cultivation. The project focuses on applying data science concepts to a real-world agricultural problem.",
-    tech: [
-      "Python",
-      "Machine Learning",
-      "Data Preprocessing",
-      "Model Prediction",
-      "Frontend-Backend Integration",
-      "Render Deployment",
-    ],
-    github: "https://github.com/isha-damani/agro-guide",
-    live: "https://agro-guide-frontend.onrender.com/",
-  },  
-  {
-    title: "Ritu - Cycle And Wellness Tracker",
-    description:
-      "A privacy-first menstrual cycle tracker that predicts cycle phases and period windows, allows daily mood and symptom logging, and visualizes data through an interactive calendar. Built with a focus on state consistency, persistence, and clean UX.",
-    tech: [
-      "React",
-      "Tailwind CSS",
-      "TypeScript",
-      "Vite",
-      "LocalStorage",
-      "Vercel Deployment",
-    ],
-    github: "https://github.com/isha-damani/ritu",
-    live: "https://ritu-period-tracker.vercel.app/",
-  },   
+    {
+      title: "GeoAlarm",
+      description:
+        "A full-stack web app that tracks a user's live location and triggers an alarm when they arrive at a saved destination. Built REST APIs with JWT authentication and password hashing, with ownership-checked CRUD for locations and alarm logs. Arrival detection uses the Haversine formula on browser geolocation data, with a looping audio alert and an acknowledgment flow. Location data is stored in MongoDB as GeoJSON points with a 2dsphere index.",
+      tech: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT Authentication",
+        "Geolocation API",
+      ],
+      github: "https://github.com/isha-damani/geoalarm-app",
+    },
+    {
+      title: "Drug Sensitivity Prediction (Research Project)",
+      description:
+        "An ongoing research project where I am reimplementing PathDSP, a model that predicts cancer drug sensitivity using pathway enrichment. Being carried out as part of my college Project School requirement, with a research paper in progress.",
+      tech: [
+        "Python",
+        "scikit-learn",
+        "pandas",
+        "NumPy",
+      ],
+    },
+    {
+      title: "Personal Portfolio Website",
+      description:
+        "Designed and developed a personal portfolio website to present my work and learning journey. Used an AI-assisted tool to generate the initial project structure, then customized the design, content, and components manually. Implemented version control using Git, managed the repository on GitHub, and deployed the site using Netlify.",
+      tech: [
+        "Git & GitHub",
+        "Project Structuring",
+        "Frontend Customization",
+        "Netlify Deployment",
+      ],
+      github: "https://github.com/isha-damani/isha-portfolio",
+      live: "https://isha-damani-portfolio.netlify.app",
+    }, 
+  // {
+  //   title: "AgroGuide - Crop Recommendation System",
+  //   description:
+  //     "Developed a web-based application that provides crop recommendations based on soil nutrients and weather parameters. The system collects user inputs such as nitrogen, phosphorus, potassium, pH, temperature, and rainfall, and uses a machine learning model to suggest suitable crops for cultivation. The project focuses on applying data science concepts to a real-world agricultural problem.",
+  //   tech: [
+  //     "Python",
+  //     "Machine Learning",
+  //     "Data Preprocessing",
+  //     "Model Prediction",
+  //     "Frontend-Backend Integration",
+  //     "Render Deployment",
+  //   ],
+  //   github: "https://github.com/isha-damani/agro-guide",
+  //   live: "https://agro-guide-frontend.onrender.com/",
+  // },  
+  // {
+  //   title: "Ritu - Cycle And Wellness Tracker",
+  //   description:
+  //     "A privacy-first menstrual cycle tracker that predicts cycle phases and period windows, allows daily mood and symptom logging, and visualizes data through an interactive calendar. Built with a focus on state consistency, persistence, and clean UX.",
+  //   tech: [
+  //     "React",
+  //     "Tailwind CSS",
+  //     "TypeScript",
+  //     "Vite",
+  //     "LocalStorage",
+  //     "Vercel Deployment",
+  //   ],
+  //   github: "https://github.com/isha-damani/ritu",
+  //   live: "https://ritu-period-tracker.vercel.app/",
+  // },   
 ];
 
 
