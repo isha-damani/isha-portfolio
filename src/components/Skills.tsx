@@ -1,8 +1,43 @@
 const skillCategories = [
   {
+    title: "Programming Languages",
+    skills: [
+      "Java",
+      "Python",
+      "C",
+      "JavaScript",
+      "SQL",
+      "HTML & CSS",
+    ],
+  },
+  {
+    title: "Web Development",
+    skills: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "JWT Authentication",
+    ],
+  },
+  {
+    title: "Databases",
+    skills: [
+      "MySQL",
+      "MongoDB",
+    ],
+  },
+  {
+    title: "Core CS Fundamentals",
+    skills: [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "DBMS",
+    ],
+  },
+  {
     title: "Data Science & Analysis",
     skills: [
-      "Python",
       "Pandas",
       "NumPy",
       "Exploratory Data Analysis (EDA)",
@@ -22,21 +57,13 @@ const skillCategories = [
     ],
   },
   {
-    title: "Statistics & Analytical Concepts",
+    title: "Tools",
     skills: [
-      "Descriptive Statistics",
-      "Correlation Analysis",
-      "ANOVA (Basics)",
-      "Hypothesis Testing (Foundations)",
-    ],
-  },
-  {
-    title: "Programming & Tools",
-    skills: [
-      "Python",
       "Git & GitHub",
       "Jupyter Notebooks",
       "VS Code",
+      "Thunder Client",
+      "Netlify",
     ],
   },
 ];
